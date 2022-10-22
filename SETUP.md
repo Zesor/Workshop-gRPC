@@ -27,11 +27,11 @@ export PATH=$PATH:/usr/local/go/bin:$(go env GOPATH)/bin
 ### **protoc**
 
 protoc est le protocol buffer compilateur, il nous sera utile pour créer no protobuf plus tard durant le workshop:
-- under fedora: `sudo dnf install protobuf-compiler`
-- under ubuntu: `sudo apt install protobuf-compiler`
-- under macos: `brew install protoc`
+- sur fedora: `sudo dnf install protobuf-compiler`
+- sur ubuntu: `sudo apt install protobuf-compiler`
+- sur macos: `brew install protoc`
 
-If you have any issue with the installation, go [here](https://grpc.io/docs/protoc-installation/).
+Si vous avez le moindre problème avec protoc, go [here](https://grpc.io/docs/protoc-installation/).
 
 ## Init golang project
 
