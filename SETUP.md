@@ -11,6 +11,8 @@ Pour ce workshop nous utiliserons golang en association avec grpc-gateway, pour 
 ```shell
 # Will download go binaries
 wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
+or
+brew install golang
 
 # Will extract and move binaries into GOPATH
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
