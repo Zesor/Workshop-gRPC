@@ -4,6 +4,7 @@ For this workshop, you will need the following tools:
 
 - [go](https://go.dev/) - The programming language you'll use during the workshop
 - [protoc](https://developers.google.com/protocol-buffers) - The protobuf compiler
+- [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) - The grpc gateway
 
 Pour ce workshop nous utiliserons golang en association avec grpc-gateway, pour ce faire installer golang:
 
