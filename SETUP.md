@@ -1,18 +1,18 @@
 ## 1 - Installation
 
-For this workshop, you will need the following tools:
+Pour ce workshop, nous devrons installer les dépendances suivantes:
 
-- [go](https://go.dev/) - The programming language you'll use during the workshop
-- [protoc](https://developers.google.com/protocol-buffers) - The protobuf compiler
-- [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) - The grpc gateway
+- [go](https://go.dev/) - Le langage pour ce workshop.
+- [protoc](https://developers.google.com/protocol-buffers) - Le protobuf compiler
+- [grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) - grpc gateway
 
 Pour ce workshop nous utiliserons golang en association avec grpc-gateway, pour ce faire installer golang:
 
 ### **go**
 ```shell
-# Will download go binaries
+# Le tar.gz pour installer golang sur linux
 wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
-or
+Pour macos -->
 brew install golang
 
 # Will extract and move binaries into GOPATH
@@ -26,7 +26,7 @@ export PATH=$PATH:/usr/local/go/bin:$(go env GOPATH)/bin
 
 ### **protoc**
 
-protoc is the protocol buffer compiler, you can install it with your package manager:
+protoc est le protocol buffer compilateur, il nous sera utile pour créer no protobuf plus tard durant le workshop:
 - under fedora: `sudo dnf install protobuf-compiler`
 - under ubuntu: `sudo apt install protobuf-compiler`
 - under macos: `brew install protoc`
@@ -35,12 +35,12 @@ If you have any issue with the installation, go [here](https://grpc.io/docs/prot
 
 ## Init golang project
 
-Create a folder for this workshop and run the following command inside to initialize the go project:
+Créer un dossier pour ce workshop et lancez la commande suivante pour initialiser le projet.
 ```shell
 go mod init grpc-workshop
 ```
 
-Then run:
+Ensuite lancez --> :
 ```shell
 go install \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway \
