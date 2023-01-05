@@ -17,19 +17,19 @@ Comprendre comment gérer les erreurs et les cas d'utilisation avancés dans gRP
 
 ## Introduction à gRPC et aux concepts de base
 
-Utilisation de Protocol Buffers pour décrire les schémas de données et les services RPC
-Création et déploiement d'un service gRPC
-Gestion des erreurs et cas d'utilisation avancés dans gRPC
-Exercices pratiques :
-Exercice 1 : Création d'un service gRPC simple
-Exercice 2 : Ajout de fonctionnalités avancées au service gRPC (gestion des erreurs, streaming, etc.)
-Exercice 3 : Création d'une application cliente gRPC qui appelle le service créé dans l'exercice 1
+Utilisation de Protocol Buffers pour décrire les schémas de données et les services RPC </br>
+Création et déploiement d'un service gRPC </br>
+Gestion des erreurs et cas d'utilisation avancés dans gRPC </br>
+Exercices pratiques : </br>
+ - Exercice 1 : Création d'un service gRPC simple </br>
+ - Exercice 2 : Ajout de fonctionnalités avancées au service gRPC (gestion des erreurs, streaming, etc.) </br>
+ - Exercice 3 : Création d'une application cliente gRPC qui appelle le service créé dans l'exercice 1 </br>
 
-## Conclusion
+## Conclusion </br>
 
-Dans ce workshop, vous avez appris les concepts de base de gRPC et comment utiliser gRPC pour construire des applications distribuées. Vous avez également eu l'occasion de mettre en pratique vos connaissances en réalisant des exercices pratiques.
+Dans ce workshop, vous avez appris les concepts de base de gRPC et comment utiliser gRPC pour construire des applications distribuées. Vous avez également eu l'occasion de mettre en pratique vos connaissances en réalisant des exercices pratiques. </br>
 
-N'hésitez pas à me poser d'autres questions si vous avez besoin de plus de détails ou si vous avez des difficultés à comprendre quelque chose.
+N'hésitez pas à me poser d'autres questions si vous avez besoin de plus de détails ou si vous avez des difficultés à comprendre quelque chose. </br>
 
 
 
